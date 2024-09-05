@@ -72,7 +72,7 @@ def login():
                     print("\nEnter correct roll number!")
                 if exists:
                     try:
-                        sem = int(input("\nEnter semester number [1/2]: "))
+                        sem = int(input("\nEnter semester number: "))
                         n = int(input("\nEnter number of Courses: "))
                     except ValueError:
                         print("\nEnter Integer!")
